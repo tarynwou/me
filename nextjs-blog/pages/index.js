@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Typed from "typed.js";
+import AboutMe from "../components/AboutMe.tsx";
 
 function RoleComponent() {
 	// Create reference to store the DOM element containing the animation
@@ -34,6 +35,7 @@ export default function Home() {
 				<h1 className={styles.title}>I am a</h1>
 				<RoleComponent></RoleComponent>
 				<img src="/images/tw-logo-filled.png" alt="logo" />
+				<AboutMe></AboutMe>
 			</main>
 
 			<footer>
