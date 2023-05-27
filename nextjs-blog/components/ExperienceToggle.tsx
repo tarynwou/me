@@ -41,7 +41,7 @@ export default function ExperienceToggle(): JSX.Element {
 			value={alignment}
 			exclusive
 			onChange={handleAlignment}
-			aria-label="text alignment"
+			aria-label="experience type"
 		>
 			<CustomToggleButton
 				value="work"

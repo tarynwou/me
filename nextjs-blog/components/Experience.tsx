@@ -6,7 +6,9 @@ export default function Experience() {
 	return (
 		<Stack>
 			<h1 className={styles.sectionHeader}>Experience</h1>
-			<ExperienceToggle></ExperienceToggle>
+			<div className={styles.experienceToggleWrapper}>
+				<ExperienceToggle></ExperienceToggle>
+			</div>
 		</Stack>
 	);
 }

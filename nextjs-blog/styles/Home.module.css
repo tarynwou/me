@@ -12,6 +12,8 @@
 
 .mainDiv {
 	width: 80%;
+	align-items: center;
+	text-align: center;
 }
 
 .headshotDiv {
@@ -21,6 +23,7 @@
 
 .titleTextDiv {
 	width: 65%;
+	text-align: left;
 }
 
 #titlehi {
