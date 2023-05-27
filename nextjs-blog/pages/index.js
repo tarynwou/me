@@ -3,6 +3,10 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Typed from "typed.js";
 import AboutMe from "../components/AboutMe.tsx";
+import Connect from "../components/Connect.tsx";
+import Experience from "../components/Experience.tsx";
+import Portfolio from "../components/Portfolio.tsx";
+import Stack from "@mui/material/Stack";
 
 function RoleComponent() {
 	// Create reference to store the DOM element containing the animation
@@ -12,6 +16,7 @@ function RoleComponent() {
 		const typed = new Typed(role.current, {
 			strings: ["developer", "product manager", "creator"],
 			typeSpeed: 60,
+			loopCount: Infinity,
 		});
 
 		return () => {
@@ -32,10 +37,24 @@ export default function Home() {
 			</Head>
 
 			<main>
-				<h1 className={styles.title}>I am a</h1>
-				<RoleComponent></RoleComponent>
-				<img src="/images/tw-logo-filled.png" alt="logo" />
-				<AboutMe></AboutMe>
+				<Stack>
+					<p id={styles.titlehi}>Hi, my name is</p>
+					<h1 className={styles.titlefont} id={styles.titlename}>
+						Taryn Wou
+					</h1>
+					<h2 className={styles.titlefont} id={styles.titlerole}>
+						I am a
+					</h2>
+					<RoleComponent
+						className={styles.titlefont}
+						id={styles.titlerole}
+					></RoleComponent>
+					<img src="/images/tw-logo-filled.png" alt="logo" />
+					<AboutMe></AboutMe>
+					<Experience></Experience>
+					<Portfolio></Portfolio>
+					<Connect></Connect>
+				</Stack>
 			</main>
 
 			<footer>
