@@ -14,20 +14,29 @@
 	width: 80%;
 }
 
-.headshot {
-	width: 400px;
+.headshotDiv {
+	width: 35%;
 	margin-right: 50px;
+}
+
+.titleTextDiv {
+	width: 65%;
+}
+
+.headshot {
+	/* width: 400px; */
 }
 
 #titlehi {
 	font-family: Inter, -apple-system, system-ui, sans-serif;
 	font-size: 20px;
+	margin-top: 30px;
 }
 
 .titlefont {
 	font-family: San Francisco, SF Pro Text, -apple-system, system-ui,
 		sans-serif;
-	font-size: 96px;
+	font-size: 80px;
 	font-weight: 700;
 	margin-bottom: 0;
 	margin-top: 0;
@@ -37,12 +46,13 @@
 	color: var(--blue);
 }
 
-.typed-cursor {
-	color: var(--blue);
-	font-family: San Francisco, SF Pro Text, -apple-system, system-ui,
-		sans-serif;
-	font-size: 96px;
-	font-weight: 700;
+#titleroletyped {
+	color: var(--pink);
+}
+
+.titleMiniBioDiv {
+	width: 80%;
+	margin-top: 20px;
 }
 
 .container {

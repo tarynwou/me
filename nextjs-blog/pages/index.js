@@ -52,7 +52,7 @@ export default function Home() {
 							/>
 						</div>
 
-						<Stack>
+						<Stack className={styles.titleTextDiv}>
 							<p id={styles.titlehi}>Hi, my name is</p>
 							<h1
 								className={styles.titlefont}
@@ -68,9 +68,18 @@ export default function Home() {
 							</h2>
 							<div
 								className={styles.titlefont}
-								id={styles.titlerole}
+								id={styles.titleroletyped}
 							>
 								<RoleComponent></RoleComponent>
+							</div>
+							<div className={styles.titleMiniBioDiv}>
+								<p>
+									As a business and computer science student
+									at the University of British Columbia, I am
+									actively looking for opportunities to
+									develop my technical abilities and drive
+									value back into the community.
+								</p>
 							</div>
 						</Stack>
 					</Stack>
