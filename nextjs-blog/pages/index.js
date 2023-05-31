@@ -15,7 +15,7 @@ function RoleComponent() {
 
 	React.useEffect(() => {
 		const typed = new Typed(role.current, {
-			strings: ["developer", "product manager", "creator"],
+			strings: ["developer.", "product manager.", "creator."],
 			typeSpeed: 100,
 			loop: true,
 			loopCount: Infinity,
@@ -58,7 +58,7 @@ export default function Home() {
 								className={styles.titlefont}
 								id={styles.titlename}
 							>
-								Taryn Wou
+								Taryn Wou.
 							</h1>
 							<h2
 								className={styles.titlefont}
