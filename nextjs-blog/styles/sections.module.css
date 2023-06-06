@@ -3,6 +3,10 @@
 	font-family: "San Francisco", "SF Pro Text", Inter, -apple-system, Roboto;
 }
 
+.aboutSectionContent {
+	align-self: center;
+}
+
 .aboutTextContainer {
 	width: 500px;
 	margin-right: 50px;
@@ -10,7 +14,7 @@
 }
 
 .cartoon {
-	width: 500px;
+	width: 400px;
 	-webkit-transform: scaleX(-1);
 	transform: scaleX(-1);
 }
