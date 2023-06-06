@@ -35,7 +35,7 @@
 }
 
 .experienceCard {
-	width: 80%;
+	/* width: 80%; */
 	text-align: left;
 	background-color: white;
 	align-self: center;
@@ -117,4 +117,10 @@
 .contactButton:hover {
 	color: var(--blue);
 	border-width: 2px;
+}
+
+.contactButton:active {
+	color: var(--pink);
+	border-width: 2px;
+	border-color: var(--pink);
 }

@@ -1,3 +1,7 @@
+.container {
+	display: flex;
+}
+
 .navBar {
 	width: 100%;
 	height: 100px;
@@ -11,18 +15,25 @@
 }
 
 .mainDiv {
-	width: 80%;
+	/* width: 80%; */
+	max-width: 1080px;
 	align-items: center;
 	text-align: center;
+}
+
+.titleSection {
+	/* width: 80%; */
+	align-self: center;
 }
 
 .headshotDiv {
 	width: 35%;
 	margin-right: 50px;
+	margin-left: 60px;
 }
 
 .titleTextDiv {
-	width: 65%;
+	width: 60%;
 	text-align: left;
 }
 

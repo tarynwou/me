@@ -15,7 +15,7 @@ function RoleComponent() {
 
 	React.useEffect(() => {
 		const typed = new Typed(role.current, {
-			strings: ["developer.", "product manager.", "creator."],
+			strings: ["developer.", "product mgr.", "creator."],
 			typeSpeed: 100,
 			loop: true,
 			loopCount: Infinity,
@@ -42,7 +42,7 @@ export default function Home() {
 
 			<NavigationBar></NavigationBar>
 			<main className={styles.mainDiv}>
-				<Stack>
+				<Stack className={styles.titleSection}>
 					<Stack direction="row">
 						<div className={styles.headshotDiv}>
 							<img
