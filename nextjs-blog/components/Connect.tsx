@@ -1,8 +1,7 @@
 import React from "react";
 import styles from "../styles/sections.module.css";
-import { Grid } from "@mui/material";
+import { Stack } from "@mui/material";
 import Button from "@mui/material/Button";
-import IconButton from "@mui/material/IconButton";
 import EmailRoundedIcon from "@mui/icons-material/EmailRounded";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -21,33 +20,50 @@ export default function Connect() {
 	return (
 		<>
 			<h1 className={styles.sectionHeader}>Let's Connect</h1>
-			{/* <Grid
-				container
-				rowSpacing={1}
-				columnSpacing={{ xs: 1, sm: 2, md: 3 }}
-			>
-				<Grid item xs={6}>
-					<IconButton>
-						<EmailRoundedIcon fontSize="inherit" /> Email
-					</IconButton>
-				</Grid>
-				<Grid item xs={6}>
-					<IconButton>
-						<LinkedInIcon fontSize="inherit" fontFamily="inherit" />
-						{"LinkedIn"}
-					</IconButton>
-				</Grid>
-				<Grid item xs={6}>
-					<IconButton>
-						<GitHubIcon fontSize="inherit" /> GitHub
-					</IconButton>
-				</Grid>
-				<Grid item xs={6}>
-					<IconButton>
-						<InstagramIcon fontSize="inherit" /> Instagram
-					</IconButton>
-				</Grid>
-			</Grid> */}
+			<div className={styles.contactSection}>
+				<Stack className={styles.contactRow} direction="row">
+					<Button
+						className={styles.contactButton}
+						variant="outlined"
+						startIcon={<EmailRoundedIcon />}
+						href="mailto:tarynwou@gmail.com"
+						target="_blank"
+					>
+						Email
+					</Button>
+
+					<Button
+						className={styles.contactButton}
+						variant="outlined"
+						startIcon={<LinkedInIcon />}
+						href="https://www.linkedin.com/in/tarynwou/"
+						target="_blank"
+					>
+						LinkedIn
+					</Button>
+				</Stack>
+				<Stack className={styles.contactRow} direction="row">
+					<Button
+						className={styles.contactButton}
+						variant="outlined"
+						startIcon={<GitHubIcon />}
+						href="https://github.com/tarynwou"
+						target="_blank"
+					>
+						GitHub
+					</Button>
+
+					<Button
+						className={styles.contactButton}
+						variant="outlined"
+						startIcon={<InstagramIcon />}
+						href="https://www.instagram.com/tarynwou/"
+						target="_blank"
+					>
+						Instagram
+					</Button>
+				</Stack>
+			</div>
 		</>
 	);
 }

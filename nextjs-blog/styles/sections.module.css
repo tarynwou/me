@@ -35,7 +35,7 @@
 }
 
 .experienceCard {
-	width: 90%;
+	width: 80%;
 	text-align: left;
 	background-color: white;
 	align-self: center;
@@ -94,4 +94,27 @@
 	margin-bottom: 6px;
 	margin-left: 10px;
 	font-family: "San Francisco", "SF Pro Text", Inter, -apple-system, Roboto;
+}
+
+.contactSection {
+	align-self: center;
+	margin-bottom: 100px;
+}
+
+.contactButton {
+	width: 300px;
+	padding: 10px;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 8px;
+	color: black;
+	margin-bottom: 40px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-family: "San Francisco", "SF Pro Text", Inter, -apple-system, Roboto;
+}
+
+.contactButton:hover {
+	color: var(--blue);
+	border-width: 2px;
 }
