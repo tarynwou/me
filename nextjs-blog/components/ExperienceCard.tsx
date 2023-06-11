@@ -2,6 +2,8 @@ import styles from "../styles/sections.module.css";
 import { Stack } from "@mui/material";
 
 export default function ExperienceCard(props) {
+	let list: any = props.experienceDescription;
+
 	return (
 		<Stack className={styles.experienceCard} direction="row">
 			<div className={styles.experienceImageContainer}>
@@ -31,7 +33,9 @@ export default function ExperienceCard(props) {
 				</h3>
 
 				<p className={styles.experienceDescription}>
-					{props.experienceDescription}
+					{list.map((item) => (
+						<li>{item}</li>
+					))}
 				</p>
 			</Stack>
 		</Stack>
