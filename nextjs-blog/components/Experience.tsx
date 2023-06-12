@@ -3,6 +3,8 @@ import { Stack } from "@mui/material";
 import ExperienceToggle from "./ExperienceToggle";
 import React, { useState } from "react";
 import WorkExperience from "./WorkExperience";
+import ProgramsExperience from "./ProgramsExperience";
+import VolunteerExperience from "./VolunteerExperience";
 
 export default function Experience() {
 	const [selectedToggle, setSelectedToggle] = useState("work");
@@ -21,6 +23,12 @@ export default function Experience() {
 				></ExperienceToggle>
 			</div>
 			{selectedToggle === "work" && <WorkExperience></WorkExperience>}
+			{selectedToggle === "volunteer" && (
+				<VolunteerExperience></VolunteerExperience>
+			)}
+			{selectedToggle === "programs" && (
+				<ProgramsExperience></ProgramsExperience>
+			)}
 		</Stack>
 	);
 }

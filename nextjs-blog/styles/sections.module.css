@@ -37,11 +37,12 @@
 }
 
 .experienceCard {
-	/* width: 80%; */
+	min-width: 960px;
 	text-align: left;
 	background-color: white;
 	align-self: center;
 	padding: 30px;
+	padding-right: 50px;
 	border-radius: 16px;
 	border-width: 2px;
 	border-style: solid;

@@ -12,7 +12,7 @@ export default function AboutMe() {
 						have always tried to put myself in situations that allow
 						me to meet new people and grow as an individual.
 						Currently, I am interested in pursuing product
-						management, web development, and UI/UX.
+						management, software development, and UI/UX design.
 					</p>
 					<p className={styles.aboutPara}>
 						Service is a large part of my everyday being, and I hope
