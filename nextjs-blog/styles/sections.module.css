@@ -8,13 +8,14 @@
 }
 
 .aboutTextContainer {
-	width: 500px;
+	width: 550px;
 	margin-right: 50px;
-	padding-top: 20px;
+	/* padding-top: 20px; */
 }
 
 .cartoon {
-	width: 400px;
+	width: 200px;
+	height: 313.02px;
 	-webkit-transform: scaleX(-1);
 	transform: scaleX(-1);
 }
@@ -32,6 +33,7 @@
 .experienceToggleWrapper {
 	display: "flex";
 	justify-content: "center";
+	margin-bottom: 20px;
 }
 
 .experienceCard {
@@ -68,7 +70,7 @@
 }
 
 .experienceRole {
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 700;
 	margin: 0;
 	margin-bottom: 6px;

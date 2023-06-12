@@ -31,7 +31,7 @@ export default function AboutMe() {
 				</Stack>
 				<img
 					className={styles.cartoon}
-					src="/images/taryn-character.png"
+					src="/images/taryn-character-nbg.png"
 					alt="Taryn Wou Cartoon"
 				/>
 			</Stack>
