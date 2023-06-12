@@ -1,5 +1,5 @@
 import styles from "../styles/sections.module.css";
-import { Stack } from "@mui/material";
+import { Stack, Chip } from "@mui/material";
 
 export default function ExperienceCard(props) {
 	let list: any = props.experienceDescription;
@@ -15,9 +15,16 @@ export default function ExperienceCard(props) {
 			</div>
 
 			<Stack>
-				<h2 className={styles.experienceRole}>
-					{props.experienceRole}
-				</h2>
+				<Stack direction="row">
+					<h2 className={styles.experienceRole}>
+						{props.experienceRole}
+					</h2>
+					{/* <Stack direction="row" spacing={1}>
+						<Chip label="primary" color="primary" />
+						<Chip label="success" color="success" />
+					</Stack> */}
+				</Stack>
+
 				<Stack direction="row">
 					<h3 className={styles.experienceOrg}>
 						{props.experienceOrg}

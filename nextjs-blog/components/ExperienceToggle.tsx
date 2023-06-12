@@ -25,20 +25,26 @@ const CustomToggleButton = styled(ToggleButton)(({ theme }) => ({
 	},
 }));
 
-export default function ExperienceToggle(): JSX.Element {
-	const [alignment, setAlignment] = React.useState<string | null>("work");
+export default function ExperienceToggle(props): JSX.Element {
+	// const [alignment, setAlignment] = React.useState<string | null>("work");
 
-	const handleAlignment = (
-		event: React.MouseEvent<HTMLElement>,
-		newAlignment: string | null
-	) => {
-		setAlignment(newAlignment);
+	// const handleAlignment = (
+	// 	event: React.MouseEvent<HTMLElement>,
+	// 	newAlignment: string | null
+	// ) => {
+	// 	setAlignment(newAlignment);
+	// };
+
+	const { selectedToggle, onToggleChange } = props;
+
+	const handleAlignment = (event, newAlignment) => {
+		onToggleChange(newAlignment);
 	};
 
 	return (
 		<ToggleButtonGroup
 			color="primary"
-			value={alignment}
+			value={selectedToggle}
 			exclusive
 			onChange={handleAlignment}
 			aria-label="experience type"
@@ -46,7 +52,7 @@ export default function ExperienceToggle(): JSX.Element {
 			<CustomToggleButton
 				value="work"
 				aria-label="work"
-				selected={alignment === "work"}
+				// selected={alignment === "work"}
 			>
 				<WorkRoundedIcon />
 				Work
@@ -54,7 +60,7 @@ export default function ExperienceToggle(): JSX.Element {
 			<CustomToggleButton
 				value="volunteer"
 				aria-label="volunteer"
-				selected={alignment === "volunteer"}
+				// selected={alignment === "volunteer"}
 			>
 				<VolunteerActivismRoundedIcon />
 				Volunteer
@@ -62,7 +68,7 @@ export default function ExperienceToggle(): JSX.Element {
 			<CustomToggleButton
 				value="programs"
 				aria-label="programs"
-				selected={alignment === "programs"}
+				// selected={alignment === "programs"}
 			>
 				<EmojiObjectsRoundedIcon />
 				Programs
