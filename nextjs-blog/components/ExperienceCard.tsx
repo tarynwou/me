@@ -39,11 +39,11 @@ export default function ExperienceCard(props) {
 					{props.experienceStartDate} – {props.experienceEndDate}
 				</h3>
 
-				<p className={styles.experienceDescription}>
+				<div className={styles.experienceDescription}>
 					{list.map((item) => (
 						<li>{item}</li>
 					))}
-				</p>
+				</div>
 			</Stack>
 		</Stack>
 	);

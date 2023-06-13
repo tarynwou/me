@@ -18,7 +18,7 @@ export default function NavigationBar() {
 			</a>
 			<Stack className={styles.navBarLinks} direction="row">
 				<a href="" className={styles.navBarLink}>
-					About Me
+					{/* <div className={styles.navBarLinkBox}>About Me Test</div> */}
 				</a>
 				<a href="" className={styles.navBarLink}>
 					Experience
