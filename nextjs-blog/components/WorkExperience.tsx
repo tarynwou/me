@@ -44,18 +44,7 @@ export default function WorkExperience() {
 					"Maintained production stability by containing vulnerabilities in production processes through monthly security patching and upgrading Blue Prism to v.6.10.3",
 				]}
 			></ExperienceCard>
-			{/* <ExperienceCard
-				imgSrc="/images/granted.jpeg"
-				experienceOrg="ICBC (Insurance Corporation of British Columbia)"
-				experienceRole="Full-Stack Software Developer Co-op"
-				experienceLocation="North Vancouver, BC"
-				experienceStartDate="Jan 2022"
-				experienceEndDate="Apr 2022"
-				experienceDescription={[
-					"Improved insurance claims efficiency by saving 1,208 hours/month of manual work through automating the creation of unfiled Third-Party claims using Blue Prism and a SQL database",
-					"Maintained production stability by containing vulnerabilities in production processes through monthly security patching and upgrading Blue Prism to v.6.10.3",
-				]}
-			></ExperienceCard> */}
+
 			<Stack className={styles.experienceCard} direction="row">
 				<div className={styles.experienceImageContainer}>
 					<img
@@ -86,11 +75,55 @@ export default function WorkExperience() {
 						experienceStartDate="Jun 2020"
 						experienceEndDate="Aug 2020"
 						experienceDescription={[
-							"Wrote blogs, articles, and emails to reach prospective clients",
+							"Tracked funding updates via Visualping and triggered updates for GetGranted clients",
+							"Calculated monthly clientele statistics for the team's internal dashboard",
+							"Set up phone calls with grantors and delivery organizations",
+							"Wrote 7 blogs, articles, and emails to reach prospective clients",
+							"Managed grant data in the Daylite CRM",
 						]}
 					></ExperienceBlurb>
 				</Stack>
 			</Stack>
+			<ExperienceCard
+				imgSrc="/images/ubc-logo.png"
+				experienceOrg="University of British Columbia"
+				experienceRole="COMM 292 Notetaker"
+				experienceLocation="Vancouver, BC"
+				experienceStartDate="Jan 2021"
+				experienceEndDate="Apr 2021"
+				experienceDescription={[
+					"Assisted a peer in class by developing and sharing tailored class prep and lecture notes.",
+				]}
+			></ExperienceCard>
+			<ExperienceCard
+				imgSrc="/images/marketyou.jpeg"
+				experienceOrg="MarketYou, LLC"
+				experienceRole="Digital Marketing Intern"
+				experienceLocation="Las Vegas, Nevada Area"
+				experienceStartDate="Sep 2019"
+				experienceEndDate="Jul 2020"
+				experienceDescription={[
+					"Developed and increased brand presence for 19+ clients by designing 60+ graphics for digital advertisements, print, and brand materials",
+					"Generated 50,000+ social media impressions by copywriting for client advertisements",
+					"Enhanced website search engine optimization (SEO) ratings through copywriting for blogs and securing quality backlinks",
+				]}
+			></ExperienceCard>
+			<ExperienceCard
+				imgSrc="/images/elections-canada.png"
+				experienceOrg="Elections Canada"
+				experienceRole="Information Officer"
+				experienceLocation="Coquitlam, BC"
+				experienceStartDate="Oct 2019"
+				experienceEndDate="Oct 2019"
+				experienceDescription={[
+					"Supported the set-up and closing of the polling place",
+					"Directed electors to their polling station or registration desk",
+					"Reminded electors to have their Voter Information Card and ID available and answered the elector’s questions",
+					"Directed the orderly flow of people in the central polling place",
+					"Recognized when an elector needed extra assistance and helped them as necessary, including opening the door for them",
+					"Ensured that the polling place closed at the prescribed time and that electors who entered the polling place before the close could exercise their right to vote",
+				]}
+			></ExperienceCard>
 		</Stack>
 	);
 }
