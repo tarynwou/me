@@ -7,41 +7,60 @@ import React from "react";
 export default function VolunteerExperience() {
 	return (
 		<Stack className={styles.volunteerExperience}>
+			<Stack className={styles.experienceCard} direction="row">
+				<div className={styles.experienceImageContainer}>
+					<img
+						className={styles.experienceImage}
+						src="/images/nwplus.jpeg"
+						alt="nwPlus"
+					/>
+				</div>
+
+				<Stack>
+					<ExperienceBlurb
+						experienceOrg="nwPlus"
+						experienceRole="Co-President"
+						experienceLocation="Vancouver, BC"
+						experienceStartDate="Mar 2023"
+						experienceEndDate="Present"
+						experienceDescription={[
+							"Oversee 50 members to organize Western Canada's largest hackathons",
+						]}
+					></ExperienceBlurb>
+					<ExperienceBlurb
+						experienceRole="cmd-f Hackathon Director"
+						experienceStartDate="Mar 2022"
+						experienceEndDate="Mar 2023"
+						experienceDescription={[
+							"Lead a team of four to organize a mentorship program, workshops, networking opportunities, and a 24-hour hackathon for women and gender-diverse individuals",
+						]}
+					></ExperienceBlurb>
+					<ExperienceBlurb
+						experienceRole="cmd-f Hackathon Coordinator"
+						experienceStartDate="Apr 2021"
+						experienceEndDate="Mar 2022"
+						experienceDescription={[
+							"Fostered a positive learning environment for 250+ hackers by organizing cmd-f, British Columbia's largest all-women and gender minority hackathon",
+							"Empowered 120+ people of underrepresented genders in tech by developing and hosting events on personal and career growth",
+							"Established 25 mentorship pairings by coordinating the connect-f mentorship program for high school women and gender minorities interested in exploring the tech industry",
+							"Enhanced the HackCamp and nwHacks experience for 1200+ hackers by securing in-kind sponsors, facilitating closing ceremonies, and coordinating hackathon mentors",
+						]}
+					></ExperienceBlurb>
+				</Stack>
+			</Stack>
 			<ExperienceCard
-				imgSrc="/images/copilotai_circle.png"
-				experienceOrg="Copilot AI"
-				experienceRole="Associate Product Manager Intern"
+				imgSrc="/images/yell.jpeg"
+				experienceOrg="YELL Canada"
+				experienceRole="YELL Ambassador"
 				experienceLocation="Vancouver, BC"
-				experienceStartDate="May 2023"
+				experienceStartDate="May 2019"
 				experienceEndDate="Present"
 				experienceDescription={[
-					"Led a product redesign to accommodate a more profitable customer segment by aligning design, engineering, and customer success teams, resulting in improved product performance and UX based on customer feedback.",
-					"Analyzed the sales process to identify bottlenecks, leading to actionable recommendations to streamline the sales funnel, resulting in lower customer acquisition costs.",
-				]}
-			></ExperienceCard>
-			<ExperienceCard
-				imgSrc="/images/castofly.jpeg"
-				experienceOrg="Castofly Technologies"
-				experienceRole="Web Developer Co-op"
-				experienceLocation="Vancouver, BC"
-				experienceStartDate="May 2022"
-				experienceEndDate="Aug 2022"
-				experienceDescription={[
-					"Increased stakeholder interest and funding by developing an analytics dashboard using React and Amazon Web Services (AWS) to track key performance indicators",
-					"Introduced custom video branding by creating a brand kit feature with React and Redux",
-					"Designed and implemented UI/UX for company website with Figma and Webflow after the designer left",
-				]}
-			></ExperienceCard>
-			<ExperienceCard
-				imgSrc="/images/icbc.svg"
-				experienceOrg="ICBC (Insurance Corporation of British Columbia)"
-				experienceRole="Full-Stack Software Developer Co-op"
-				experienceLocation="North Vancouver, BC"
-				experienceStartDate="Jan 2022"
-				experienceEndDate="Apr 2022"
-				experienceDescription={[
-					"Improved insurance claims efficiency by saving 1,208 hours/month of manual work through automating the creation of unfiled Third-Party claims using Blue Prism and a SQL database",
-					"Maintained production stability by containing vulnerabilities in production processes through monthly security patching and upgrading Blue Prism to v.6.10.3",
+					"Represent YELL at conferences and events",
+					"Help maintain the YELL website",
+					"Speak on alumni panels to current YELL students",
+					"Moderate professional panels at YELL events",
+					"Contribute ideas to improve the YELL Program",
 				]}
 			></ExperienceCard>
 		</Stack>
