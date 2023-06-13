@@ -19,7 +19,9 @@ export default function Connect() {
 
 	return (
 		<>
-			<h1 className={styles.sectionHeader}>Let's Connect</h1>
+			<h1 className={styles.sectionHeader} id="connect">
+				Let's Connect
+			</h1>
 			<div className={styles.contactSection}>
 				<Stack className={styles.contactRow} direction="row">
 					<Button

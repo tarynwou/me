@@ -4,7 +4,9 @@ import { Stack } from "@mui/material";
 export default function AboutMe() {
 	return (
 		<>
-			<h1 className={styles.sectionHeader}>About Me</h1>
+			<h1 className={styles.sectionHeader} id="aboutMe">
+				About Me
+			</h1>
 			<Stack direction="row" className={styles.aboutSectionContent}>
 				<Stack className={styles.aboutTextContainer}>
 					<p className={styles.aboutPara}>

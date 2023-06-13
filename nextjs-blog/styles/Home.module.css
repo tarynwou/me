@@ -6,14 +6,37 @@
 	width: 100%;
 	height: 100px;
 	padding: 24px;
+	padding-top: 38px;
 	margin-bottom: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* position: absolute;
+	top: 0px; */
 }
 
-.navBarLinkBox {
+.navBarLink {
+	display: flex;
+	align-items: center;
+	margin-left: 14px;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.navBarLink:hover {
+	color: var(--blue);
+}
+
+.navBarLink:active {
+	color: var(--pink);
+}
+
+#navBarLinkBox {
 	border-radius: 8px;
 	border-style: solid;
 	border-color: black;
 	border-width: 2px;
+	padding: 16px;
 }
 
 .headerLogo {

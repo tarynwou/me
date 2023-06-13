@@ -15,7 +15,9 @@ export default function Experience() {
 
 	return (
 		<Stack className={styles.experienceSection}>
-			<h1 className={styles.sectionHeader}>Experience</h1>
+			<h1 className={styles.sectionHeader} id="experience">
+				Experience
+			</h1>
 			<div className={styles.experienceToggleWrapper}>
 				<ExperienceToggle
 					selectedToggle={selectedToggle}

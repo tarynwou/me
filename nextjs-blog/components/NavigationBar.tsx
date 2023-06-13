@@ -17,17 +17,21 @@ export default function NavigationBar() {
 				/>{" "}
 			</a>
 			<Stack className={styles.navBarLinks} direction="row">
-				<a href="" className={styles.navBarLink}>
-					{/* <div className={styles.navBarLinkBox}>About Me Test</div> */}
+				<a href="#aboutMe" className={styles.navBarLink}>
+					About Me
 				</a>
-				<a href="" className={styles.navBarLink}>
+				<a href="#experience" className={styles.navBarLink}>
 					Experience
 				</a>
-				<a href="" className={styles.navBarLink}>
+				<a href="#portfolio" className={styles.navBarLink}>
 					Portfolio
 				</a>
-				<a href="" className={styles.navBarLink}>
-					Contact
+				<a
+					href="#connect"
+					className={styles.navBarLink}
+					id={styles.navBarLinkBox}
+				>
+					Connect
 				</a>
 			</Stack>
 		</Stack>

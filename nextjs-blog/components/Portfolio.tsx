@@ -3,7 +3,9 @@ import styles from "../styles/sections.module.css";
 export default function Portfolio() {
 	return (
 		<>
-			<h1 className={styles.sectionHeader}>Portfolio</h1>
+			<h1 className={styles.sectionHeader} id="portfolio">
+				Portfolio
+			</h1>
 		</>
 	);
 }
