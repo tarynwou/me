@@ -43,6 +43,7 @@
 	align-self: center;
 	padding: 30px;
 	padding-right: 50px;
+	padding-bottom: 10px;
 	border-radius: 16px;
 	border-width: 2px;
 	border-style: solid;
@@ -51,6 +52,10 @@
 	margin-left: 60px;
 	margin-bottom: 30px;
 	/* box-shadow: 5px 5px #f6f6f6; */
+}
+
+.experienceBlurb {
+	margin-bottom: 20px;
 }
 
 .experienceImageContainer {

@@ -1,6 +1,7 @@
 import styles from "../styles/sections.module.css";
 import { Stack } from "@mui/material";
 import ExperienceCard from "./ExperienceCard";
+import ExperienceBlurb from "./ExperienceBlurb";
 import React from "react";
 
 export default function ProgramsExperience() {
