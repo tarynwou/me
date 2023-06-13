@@ -26,15 +26,6 @@ const CustomToggleButton = styled(ToggleButton)(({ theme }) => ({
 }));
 
 export default function ExperienceToggle(props): JSX.Element {
-	// const [alignment, setAlignment] = React.useState<string | null>("work");
-
-	// const handleAlignment = (
-	// 	event: React.MouseEvent<HTMLElement>,
-	// 	newAlignment: string | null
-	// ) => {
-	// 	setAlignment(newAlignment);
-	// };
-
 	const { selectedToggle, onToggleChange } = props;
 
 	const handleAlignment = (event, newAlignment) => {
@@ -49,27 +40,15 @@ export default function ExperienceToggle(props): JSX.Element {
 			onChange={handleAlignment}
 			aria-label="experience type"
 		>
-			<CustomToggleButton
-				value="work"
-				aria-label="work"
-				// selected={alignment === "work"}
-			>
+			<CustomToggleButton value="work" aria-label="work">
 				<WorkRoundedIcon />
 				Work
 			</CustomToggleButton>
-			<CustomToggleButton
-				value="volunteer"
-				aria-label="volunteer"
-				// selected={alignment === "volunteer"}
-			>
+			<CustomToggleButton value="volunteer" aria-label="volunteer">
 				<VolunteerActivismRoundedIcon />
 				Volunteer
 			</CustomToggleButton>
-			<CustomToggleButton
-				value="programs"
-				aria-label="programs"
-				// selected={alignment === "programs"}
-			>
+			<CustomToggleButton value="programs" aria-label="programs">
 				<EmojiObjectsRoundedIcon />
 				Programs
 			</CustomToggleButton>
