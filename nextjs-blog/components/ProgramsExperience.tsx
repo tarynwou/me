@@ -30,6 +30,18 @@ export default function ProgramsExperience() {
 				]}
 			></ExperienceCard>
 			<ExperienceCard
+				imgSrc="/images/younga.png"
+				experienceOrg="BridgingTheGap Ventures"
+				experienceRole="YOUNGA Delegate"
+				experienceLocation="Vancouver, BC"
+				experienceStartDate="Apr 2021"
+				experienceEndDate="Oct 2021"
+				experienceDescription={[
+					"One of 2000 youth selected to participate and advocate in policy discussions regarding issues affecting global youth",
+					"Participated in policy discussions regarding advancing the quality and accessibility of education",
+				]}
+			></ExperienceCard>
+			<ExperienceCard
 				imgSrc="/images/microsoft.jpeg"
 				experienceOrg="Microsoft"
 				experienceRole="Technical Resilience Mentee"
@@ -38,6 +50,19 @@ export default function ProgramsExperience() {
 				experienceEndDate="May 2021"
 				experienceDescription={[
 					"Actively participated as a mentee in the Technical Resilience program at Microsoft, gaining valuable insights and guidance from industry experts to develop robust technical skills and enhance the ability to navigate and thrive in complex technical environments.",
+				]}
+			></ExperienceCard>
+			<ExperienceCard
+				imgSrc="/images/ef.jpeg"
+				experienceOrg="EF Education First"
+				experienceRole="Canadian Youth Ambassador"
+				experienceLocation="Vancouver, BC"
+				experienceStartDate="Feb 2020"
+				experienceEndDate="Present"
+				experienceDescription={[
+					"Selected as one of thirty (top 3% of applicants) Canadian youth (aged 13-18) to serve as an EF Canadian Youth Ambassador",
+					"Set to travel to Panama for a service and cultural exploration trip",
+					"Set to meet and receive mentorship from Canadian Senators and Members of Parliament in Ottawa",
 				]}
 			></ExperienceCard>
 			<ExperienceCard
