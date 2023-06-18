@@ -21,6 +21,7 @@ const CustomToggleButton = styled(ToggleButton)(({ theme }) => ({
 		color: "#000",
 		"&:hover": {
 			backgroundColor: "#FFFFFF",
+			color: "#fd12b3",
 		},
 	},
 }));
