@@ -17,6 +17,7 @@ export default function WorkExperience() {
 				experienceDescription={[
 					"Led a product redesign to accommodate a more profitable customer segment by aligning design, engineering, and customer success teams, resulting in improved product performance and UX based on customer feedback.",
 					"Analyzed the sales process to identify bottlenecks, leading to actionable recommendations to streamline the sales funnel, resulting in lower customer acquisition costs.",
+					"Impacted the onboarding process by giving feedback to hiring managers",
 				]}
 			></ExperienceCard>
 			<ExperienceCard

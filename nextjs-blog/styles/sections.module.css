@@ -1,6 +1,7 @@
 .sectionHeader {
 	font-size: 64px;
-	font-family: "San Francisco", "SF Pro Text", Inter, -apple-system, Roboto;
+	font-family: "San Francisco", "SF Pro Text", Inter, Helvetica, -apple-system,
+		Roboto;
 }
 
 .aboutSectionContent {
@@ -89,7 +90,8 @@
 	margin: 0;
 	margin-bottom: 6px;
 	margin-right: 10px;
-	font-family: "San Francisco", "SF Pro Text", Inter, -apple-system, Roboto;
+	font-family: "San Francisco", "SF Pro Text", Inter, Helvetica, -apple-system,
+		Roboto;
 }
 
 .experienceDate {
@@ -98,7 +100,8 @@
 	font-style: italic;
 	margin: 0;
 	margin-bottom: 6px;
-	font-family: "San Francisco", "SF Pro Text", Inter, -apple-system, Roboto;
+	font-family: "San Francisco", "SF Pro Text", Inter, Helvetica, -apple-system,
+		Roboto;
 	color: grey;
 }
 
@@ -108,7 +111,8 @@
 	margin: 0;
 	margin-bottom: 6px;
 	margin-left: 10px;
-	font-family: "San Francisco", "SF Pro Text", Inter, -apple-system, Roboto;
+	font-family: "San Francisco", "SF Pro Text", Inter, Helvetica, -apple-system,
+		Roboto;
 }
 
 .experienceDescription {
@@ -145,7 +149,8 @@
 	margin-bottom: 40px;
 	margin-left: 20px;
 	margin-right: 20px;
-	font-family: "San Francisco", "SF Pro Text", Inter, -apple-system, Roboto;
+	font-family: "San Francisco", "SF Pro Text", Inter, Helvetica, -apple-system,
+		Roboto;
 }
 
 .contactButton:hover {
