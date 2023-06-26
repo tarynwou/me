@@ -32,7 +32,7 @@ export default function WorkExperience() {
 			<ExperienceCard
 				imgSrc="/images/castofly.jpeg"
 				experienceOrg="Castofly Technologies"
-				experienceRole="Web Developer Co-op"
+				experienceRole="Web Developer Intern"
 				experienceLocation="Vancouver, BC"
 				experienceStartDate="May 2022"
 				experienceEndDate="Aug 2022"
@@ -45,7 +45,7 @@ export default function WorkExperience() {
 			<ExperienceCard
 				imgSrc="/images/icbc.svg"
 				experienceOrg="ICBC (Insurance Corporation of British Columbia)"
-				experienceRole="Full-Stack Software Developer Co-op"
+				experienceRole="Full-Stack Software Developer Intern"
 				experienceLocation="North Vancouver, BC"
 				experienceStartDate="Jan 2022"
 				experienceEndDate="Apr 2022"
