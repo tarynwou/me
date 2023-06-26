@@ -78,8 +78,8 @@ export default function VolunteerExperience() {
 					></ExperienceBlurb>
 					<ExperienceBlurb
 						experienceRole="Social Media Manager"
-						experienceStartDate="Aug 2022"
-						experienceEndDate="Sep 2021"
+						experienceStartDate="Sep 2021"
+						experienceEndDate="Aug 2022"
 						experienceDescription={[
 							"Lead a team of four to organize a mentorship program, workshops, networking opportunities, and a 24-hour hackathon for women and gender-diverse individuals",
 						]}
