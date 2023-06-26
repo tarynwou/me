@@ -8,6 +8,15 @@ export default function WorkExperience() {
 	return (
 		<Stack className={styles.workExperience}>
 			<ExperienceCard
+				imgSrc="/images/deloitte.jpeg"
+				experienceOrg="Deloitte"
+				experienceRole="Incoming Analyst Intern"
+				experienceLocation="Vancouver, BC"
+				experienceStartDate="Jan 2024"
+				experienceEndDate="Apr 2024"
+				experienceDescription={[,]}
+			></ExperienceCard>
+			<ExperienceCard
 				imgSrc="/images/copilotai_circle.png"
 				experienceOrg="Copilot AI"
 				experienceRole="Associate Product Manager Intern"
