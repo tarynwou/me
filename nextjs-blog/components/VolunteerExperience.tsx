@@ -89,10 +89,7 @@ export default function VolunteerExperience() {
 						experienceStartDate="Sep 2020"
 						experienceEndDate="Present"
 						experienceDescription={[
-							"Fostered a positive learning environment for 250+ hackers by organizing cmd-f, British Columbia's largest all-women and gender minority hackathon",
-							"Empowered 120+ people of underrepresented genders in tech by developing and hosting events on personal and career growth",
-							"Established 25 mentorship pairings by coordinating the connect-f mentorship program for high school women and gender minorities interested in exploring the tech industry",
-							"Enhanced the HackCamp and nwHacks experience for 1200+ hackers by securing in-kind sponsors, facilitating closing ceremonies, and coordinating hackathon mentors",
+							"Served as a VSW moderator for 6 workshops and seminars facilitated by startups in the Vancouver community",
 						]}
 					></ExperienceBlurb>
 				</Stack>
