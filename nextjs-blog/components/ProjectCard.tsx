@@ -23,14 +23,19 @@ export default function ProjectCard(props) {
 			<Stack>
 				<h3 className={styles.projectName}>{props.projectName}</h3>
 				<p className={styles.projectDate}>{props.projectDate}</p>
-				<Stack direction="row" spacing={1}>
+				<Stack
+					className={styles.projectTechnologies}
+					direction="row"
+					spacing={1}
+				>
 					{list.map((technology, index) => (
 						<Chip
 							className={styles.projectTechnology}
 							key={index}
 							label={technology}
-							variant="outlined"
+							variant="filled"
 							color="primary"
+							size="small"
 						/>
 					))}
 				</Stack>

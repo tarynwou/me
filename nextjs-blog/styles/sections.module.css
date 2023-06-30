@@ -134,44 +134,58 @@
 	padding-right: 5px;
 }
 
+.projectCardContainer {
+	align-self: center;
+	max-width: 960px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 0px;
+}
+
 .projectCard {
-	min-width: 960px;
+	width: 470px;
 	text-align: left;
 	background-color: white;
 	align-self: center;
-	padding: 30px;
-	padding-right: 50px;
-	padding-bottom: 10px;
-	border-radius: 16px;
+	/* padding: 30px; */
+	/* padding-right: 30px; */
+	/* padding-bottom: 10px; */
+	/* border-radius: 16px;
 	border-width: 2px;
 	border-style: solid;
-	border-color: black;
-	margin-right: 60px;
-	margin-left: 60px;
+	border-color: black; */
+	/* margin-right: 60px;
+	margin-left: 60px; */
 	margin-bottom: 30px;
 }
 
 .projectImageContainer {
 	margin-right: 30px;
+	min-width: 200px;
+	max-width: 200px;
+	min-height: 140px;
+	max-height: 140px;
 }
 
 .projectImage {
-	height: 140px;
-	width: 450px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 	border-radius: 16px;
 	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
 .projectName {
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 700;
-	margin: 0;
-	margin-bottom: 6px;
+	margin-top: 2px;
+	margin-bottom: 2px;
 	font-family: "San Francisco", "SF Pro Text", Inter, -apple-system, Roboto;
 }
 
 .projectDate {
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 400;
 	font-style: italic;
 	margin: 0;
@@ -181,8 +195,13 @@
 	color: grey;
 }
 
+.projectTechnologies {
+	margin-bottom: 6px;
+}
+
 .projectDescription {
 	margin-bottom: 20px;
+	font-size: 12px;
 }
 
 .contactSection {
