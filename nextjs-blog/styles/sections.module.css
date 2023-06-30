@@ -232,6 +232,7 @@
 	font-family: "San Francisco", "SF Pro Text", Inter, Helvetica, -apple-system,
 		Roboto;
 	font-weight: 400;
+	transition: color 0.3s ease, border-color 0.3s ease;
 }
 
 .contactButton:hover {
