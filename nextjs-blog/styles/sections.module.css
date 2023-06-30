@@ -216,26 +216,36 @@
 }
 
 .contactButton {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	width: 300px;
 	padding: 10px;
 	border-color: black;
 	border-width: 2px;
 	border-radius: 8px;
+	border-style: solid;
 	color: black;
 	margin-bottom: 40px;
 	margin-left: 20px;
 	margin-right: 20px;
 	font-family: "San Francisco", "SF Pro Text", Inter, Helvetica, -apple-system,
 		Roboto;
+	font-weight: 400;
 }
 
 .contactButton:hover {
 	color: var(--blue);
+	border-color: var(--blue);
 	border-width: 2px;
 }
 
 .contactButton:active {
 	color: var(--pink);
-	border-width: 2px;
 	border-color: var(--pink);
+	border-width: 2px;
+}
+
+.contactIcon {
+	margin-right: 8px;
 }
