@@ -166,6 +166,11 @@
 	max-width: 200px;
 	min-height: 140px;
 	max-height: 140px;
+	transition: transform 0.3s ease;
+}
+
+.projectImageContainer:hover {
+	transform: translateY(-5px);
 }
 
 .projectImage {

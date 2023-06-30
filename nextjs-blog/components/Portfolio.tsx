@@ -25,7 +25,7 @@ export default function Portfolio() {
 					imgSrc="/images/take-knote.jpeg"
 					projectUrl="https://devpost.com/software/take-knote"
 					projectDate="Sep 2022"
-					projectDescription="Developed the front-end for a shared digital scrapbook using React Native at Hack the North 2022 while combatting sleep-deprivation and food poisoning at my first hackathon."
+					projectDescription="Developed the front-end for a shared digital scrapbook using React Native at Hack the North 2022 while combatting sleep-deprivation and food poisoning."
 					projectTechnologies={["React Native", "Expo Go"]}
 				/>
 
