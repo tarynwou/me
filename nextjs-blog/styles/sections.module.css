@@ -52,7 +52,6 @@
 	margin-right: 60px;
 	margin-left: 60px;
 	margin-bottom: 30px;
-	/* box-shadow: 5px 5px #f6f6f6; */
 }
 
 .experienceBlurb {
@@ -133,6 +132,57 @@
 	left: 0;
 	top: 0;
 	padding-right: 5px;
+}
+
+.projectCard {
+	min-width: 960px;
+	text-align: left;
+	background-color: white;
+	align-self: center;
+	padding: 30px;
+	padding-right: 50px;
+	padding-bottom: 10px;
+	border-radius: 16px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
+	margin-right: 60px;
+	margin-left: 60px;
+	margin-bottom: 30px;
+}
+
+.projectImageContainer {
+	margin-right: 30px;
+}
+
+.projectImage {
+	height: 140px;
+	width: 450px;
+	border-radius: 16px;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.projectName {
+	font-size: 18px;
+	font-weight: 700;
+	margin: 0;
+	margin-bottom: 6px;
+	font-family: "San Francisco", "SF Pro Text", Inter, -apple-system, Roboto;
+}
+
+.projectDate {
+	font-size: 16px;
+	font-weight: 400;
+	font-style: italic;
+	margin: 0;
+	margin-bottom: 6px;
+	font-family: "San Francisco", "SF Pro Text", Inter, Helvetica, -apple-system,
+		Roboto;
+	color: grey;
+}
+
+.projectDescription {
+	margin-bottom: 20px;
 }
 
 .contactSection {

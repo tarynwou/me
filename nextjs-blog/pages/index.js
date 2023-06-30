@@ -87,7 +87,7 @@ export default function Home() {
 
 					<AboutMe></AboutMe>
 					<Experience></Experience>
-					{/* <Portfolio></Portfolio> */}
+					<Portfolio></Portfolio>
 					<Connect></Connect>
 				</Stack>
 			</main>
