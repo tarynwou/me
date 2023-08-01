@@ -185,6 +185,11 @@
 	height: 1em;
 }
 
+.footer {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
 @media (max-width: 600px) {
 	.grid {
 		width: 100%;

@@ -92,7 +92,9 @@ export default function Home() {
 				</Stack>
 			</main>
 
-			<footer></footer>
+			<footer className={styles.footer}>
+				<p>made with &lt;3</p>
+			</footer>
 		</div>
 	);
 }

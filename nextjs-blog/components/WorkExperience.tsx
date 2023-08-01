@@ -24,9 +24,8 @@ export default function WorkExperience() {
 				experienceStartDate="May 2023"
 				experienceEndDate="Present"
 				experienceDescription={[
-					"Led a product redesign to accommodate a more profitable customer segment by aligning design, engineering, and customer success teams, resulting in improved product performance and UX based on customer feedback.",
-					"Analyzed the sales process to identify bottlenecks, leading to actionable recommendations to streamline the sales funnel, resulting in lower customer acquisition costs.",
-					"Impacted the onboarding process by giving feedback to hiring managers",
+					"Exceeded the quarterly OKR by 36% by substantially elevating north star metric usage through customer journey analysis, solution design, and collaboration with cross-functional teams to execute an extensive rollout plan.",
+					"Enabled the marketing and sales teams to generate more quality leads and close more deals by implementing strategic prompt engineering techniques for the product's flagship AI feature and conducting training.",
 				]}
 			></ExperienceCard>
 			<ExperienceCard
