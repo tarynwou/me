@@ -10,13 +10,21 @@ export default function Portfolio() {
 
 			<div className={styles.projectCardContainer}>
 				<ProjectCard
+					projectName="The Council"
+					imgSrc="/images/the-council.png"
+					projectUrl="https://devpost.com/software/the-council"
+					projectDate="Sep 2023 – Present"
+					projectDescription="Selected as 1 of 12 finalist teams out of 250 projects at Hack the North 2023 by developing an AI-powered advice platform using Three.js, react-three-fiber, and the GPT-3.5-turbo API."
+					projectTechnologies={["JavaScript"]}
+				/>
+				<ProjectCard
 					projectName="Expawdition"
 					imgSrc="/images/expawdition.jpeg"
 					projectUrl="https://devpost.com/software/expawdition"
 					projectDate="May 2023 – Present"
 					projectDescription="Placed 1st at StormHacks 2023 by developing a smart itinerary 
 				builder using Firebase, Express, Next.js, Node.js
-				in addition to the GPT-3.5-turbo API, Google Places API, and Google Routes API"
+				in addition to the GPT-3.5-turbo API, Google Places API, and Google Routes API."
 					projectTechnologies={["React"]}
 				/>
 
