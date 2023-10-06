@@ -30,11 +30,11 @@ export default function ProjectCard(props) {
 				>
 					{list.map((technology, index) => (
 						<Chip
-							className={styles.projectTechnology}
+							className={`${styles.projectTechnology} ${styles.customChipColor}`}
 							key={index}
 							label={technology}
 							variant="filled"
-							color="primary"
+							// color="#2c4dff"
 							size="small"
 						/>
 					))}

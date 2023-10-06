@@ -205,6 +205,11 @@
 	margin-bottom: 6px;
 }
 
+.customChipColor {
+	background-color: #2c4dff;
+	color: white;
+}
+
 .projectDescription {
 	margin-bottom: 20px;
 	font-size: 12px;
