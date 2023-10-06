@@ -28,15 +28,10 @@ export default function ProjectCard(props) {
 					direction="row"
 					spacing={1}
 				>
-					{list.map((technology, index) => (
-						<Chip
-							className={`${styles.projectTechnology} ${styles.customChipColor}`}
-							key={index}
-							label={technology}
-							variant="filled"
-							// color="#2c4dff"
-							size="small"
-						/>
+					{list.map((technology) => (
+						<div className={styles.projectTechnology}>
+							{technology}
+						</div>
 					))}
 				</Stack>
 
