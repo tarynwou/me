@@ -60,10 +60,16 @@ export default function VolunteerExperience() {
 				<Stack>
 					<ExperienceBlurb
 						experienceOrg="Vancouver Startup Week"
-						experienceRole="Event Account Manager"
+						experienceRole="Marketing Director"
 						experienceLocation="Vancouver, BC"
-						experienceStartDate="Mar 2023"
+						experienceStartDate="Oct 2023"
 						experienceEndDate="Present"
+						experienceDescription={[]}
+					></ExperienceBlurb>
+					<ExperienceBlurb
+						experienceRole="Event Account Manager"
+						experienceStartDate="Mar 2023"
+						experienceEndDate="Aug 2023"
 						experienceDescription={[
 							"Managed 13 event accounts to ensure the flow of the conference",
 						]}
@@ -73,7 +79,7 @@ export default function VolunteerExperience() {
 						experienceStartDate="Aug 2022"
 						experienceEndDate="Mar 2023"
 						experienceDescription={[
-							"Lead a team of four to organize a mentorship program, workshops, networking opportunities, and a 24-hour hackathon for women and gender-diverse individuals",
+							"Increased ticket sales by 6% through redesigning the website and ticket-purchasing process, coordinating user experience interviews, and facilitating seamless communication between internal and external stakeholders.",
 						]}
 					></ExperienceBlurb>
 					<ExperienceBlurb
@@ -81,7 +87,7 @@ export default function VolunteerExperience() {
 						experienceStartDate="Sep 2021"
 						experienceEndDate="Aug 2022"
 						experienceDescription={[
-							"Lead a team of four to organize a mentorship program, workshops, networking opportunities, and a 24-hour hackathon for women and gender-diverse individuals",
+							"Elevated social media presence by creating 150+ captivating posts, increasing social media impressions by 210%.",
 						]}
 					></ExperienceBlurb>
 					<ExperienceBlurb
