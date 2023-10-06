@@ -24,7 +24,7 @@ export default function VolunteerExperience() {
 						experienceStartDate="Mar 2023"
 						experienceEndDate="Present"
 						experienceDescription={[
-							"Oversee 50 members to organize Western Canada's largest hackathons",
+							"Delivered inclusive and immersive hackathon experiences by overseeing a 50-member team, facilitating operations, leading hiring efforts, advising funding activities, cultivating strategic partnerships in the UBC community, and participating in UBC Computer Science discussions.",
 						]}
 					></ExperienceBlurb>
 					<ExperienceBlurb

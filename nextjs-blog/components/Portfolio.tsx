@@ -42,7 +42,7 @@ export default function Portfolio() {
 					imgSrc="/images/cbss-yearbook.png"
 					projectUrl="https://drive.google.com/file/d/1NoC3PIEn6J_FA206PSI2UfJgesn0F67z/view?usp=sharing"
 					projectDate="Mar 2020 – Aug 2020"
-					projectDescription="In light of COVID-19, this free digital yearbook was created in 
+					projectDescription="In light of COVID-19, this free 111-page digital yearbook was created in 
 					an attempt to capture the Class of 2020's 'Best' memories."
 					projectTechnologies={["Affinity Designer"]}
 				/>
