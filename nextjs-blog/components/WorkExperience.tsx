@@ -24,8 +24,8 @@ export default function WorkExperience() {
 				experienceStartDate="May 2023"
 				experienceEndDate="Present"
 				experienceDescription={[
-					"Exceeded the quarterly OKR by 36% by substantially elevating north star metric usage through customer journey analysis, solution design, and collaboration with cross-functional teams to execute an extensive rollout plan.",
-					"Enabled the marketing and sales teams to generate more quality leads and close more deals by implementing strategic prompt engineering techniques for the product's flagship AI feature and conducting training.",
+					"Exceeded the quarterly OKR by 44% by substantially elevating north star metric usage through customer interviews, solution design, and collaboration with cross-functional teams to roll out a platform redesign.",
+					"Increased Smart Reply AI feature usage by 21.3% through employing prompt engineering techniques, pressure testing, conducting training for sales and customer success teams, and developing product marketing materials.",
 				]}
 			></ExperienceCard>
 			<ExperienceCard
