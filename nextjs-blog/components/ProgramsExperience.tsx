@@ -67,7 +67,7 @@ export default function ProgramsExperience() {
 			></ExperienceCard>
 			<ExperienceCard
 				imgSrc="/images/shad.png"
-				experienceOrg="ICBC (Insurance Corporation of British Columbia)"
+				experienceOrg="SHAD Canada"
 				experienceRole="SHAD Fellow"
 				experienceLocation="Toronto, Ontario"
 				experienceStartDate="Jun 2019"
