@@ -30,6 +30,15 @@ export default function Portfolio() {
 				/>
 
 				<ProjectCard
+					projectName="The Vlogs"
+					imgSrc="/images/vlogs.jpg"
+					projectUrl="https://youtube.com/playlist?list=PLqZxkjzf5A3VFW0YFMRjEV0aXjIlsH-1r&si=-8scK0UaCPLcADN7"
+					projectDate="Sep 2022 – Present"
+					projectDescription="These highlight reels are meant to capture my adventures with friends."
+					projectTechnologies={["Final Cut Pro"]}
+				/>
+
+				<ProjectCard
 					projectName="Take Knote"
 					imgSrc="/images/take-knote.jpeg"
 					projectUrl="https://devpost.com/software/take-knote"
