@@ -1,4 +1,5 @@
 import styles from "../styles/sections.module.css";
+import { Stack } from "@mui/material";
 import ProjectCard from "./ProjectCard";
 
 export default function Portfolio() {
@@ -47,6 +48,15 @@ export default function Portfolio() {
 					projectTechnologies={["Affinity Designer"]}
 				/>
 			</div>
+			<a className={styles.nextSectionLink} href="#connect">
+				<Stack className={styles.nextSection}>
+					<p className={styles.nextSectionText}>connect with me</p>
+					<img
+						className={styles.downArrow}
+						src="/images/down-arrow.png"
+					></img>
+				</Stack>
+			</a>
 		</>
 	);
 }

@@ -9,7 +9,10 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 export default function Connect() {
 	return (
 		<>
-			<h1 className={styles.sectionHeader} id="connect">
+			<h1
+				className={`${styles.sectionHeader} ${styles.connectHeader}`}
+				id="connect"
+			>
 				Let's Connect
 			</h1>
 			<div className={styles.contactSection}>
@@ -53,6 +56,17 @@ export default function Connect() {
 						Instagram
 					</a>
 				</Stack>
+				<a className={styles.nextSectionLink} href="#top">
+					<Stack className={styles.nextSection}>
+						<img
+							className={`${styles.downArrow} ${styles.flip180}`}
+							src="/images/down-arrow.png"
+						></img>
+						<p className={styles.lastNextSectionText}>
+							back to the top!
+						</p>
+					</Stack>
+				</a>
 			</div>
 		</>
 	);

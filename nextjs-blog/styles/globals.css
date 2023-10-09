@@ -1,6 +1,7 @@
 :root {
 	--blue: #2c4dff;
 	--pink: #fd12b3;
+	--text-gradient: linear-gradient(to right, var(--blue), var(--pink));
 }
 
 html,

@@ -11,7 +11,7 @@ import Stack from "@mui/material/Stack";
 
 export default function Home() {
 	return (
-		<div className={styles.container}>
+		<div className={styles.container} id="top">
 			<Head>
 				<title>Taryn Wou</title>
 				<link rel="icon" href="/images/tw-logo-filled.png" />

@@ -31,6 +31,17 @@ export default function Experience() {
 			{selectedToggle === "programs" && (
 				<ProgramsExperience></ProgramsExperience>
 			)}
+			<a className={styles.nextSectionLink} href="#portfolio">
+				<Stack className={styles.nextSection}>
+					<p className={styles.nextSectionText}>
+						check out my projects
+					</p>
+					<img
+						className={styles.downArrow}
+						src="/images/down-arrow.png"
+					></img>
+				</Stack>
+			</a>
 		</Stack>
 	);
 }

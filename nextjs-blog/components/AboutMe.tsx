@@ -40,6 +40,17 @@ export default function AboutMe() {
 					alt="Taryn Wou Cartoon"
 				/>
 			</Stack>
+			<a className={styles.nextSectionLink} href="#experience">
+				<Stack className={styles.nextSection}>
+					<p className={styles.nextSectionText}>
+						my adventures so far
+					</p>
+					<img
+						className={styles.downArrow}
+						src="/images/down-arrow.png"
+					></img>
+				</Stack>
+			</a>
 		</>
 	);
 }

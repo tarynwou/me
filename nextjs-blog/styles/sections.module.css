@@ -3,22 +3,6 @@
 	margin-top: 5%;
 }
 
-.nextSection {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.nextSectionText {
-	margin-top: 10%;
-}
-
-.downArrow {
-	width: 20px;
-	margin-top: 8px;
-	/* margin-bottom: 6%; */
-}
-
 .titleSection {
 	/* width: 80%; */
 	align-self: center;
@@ -65,8 +49,7 @@
 }
 
 #titleroletyped {
-	/* color: var(--pink); */
-	background-image: linear-gradient(to right, var(--blue), var(--pink));
+	background-image: var(--text-gradient);
 	background-clip: text;
 	color: transparent;
 	margin-left: 12px;
@@ -75,6 +58,26 @@
 .titleMiniBioDiv {
 	width: 80%;
 	margin-top: 20px;
+}
+
+.nextSection {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.nextSectionText {
+	margin-top: 10%;
+}
+
+.lastNextSectionText {
+	margin-top: 8px;
+	margin-bottom: 5%;
+}
+
+.downArrow {
+	width: 20px;
+	margin-top: 8px;
 }
 
 /* ABOUT ME */
@@ -304,7 +307,11 @@
 
 .contactSection {
 	align-self: center;
-	margin-bottom: 100px;
+	margin-bottom: 10%;
+}
+
+.connectHeader {
+	margin-top: 10%;
 }
 
 .contactButton {
@@ -341,4 +348,8 @@
 
 .contactIcon {
 	margin-right: 8px;
+}
+
+.flip180 {
+	transform: rotate(180deg);
 }
