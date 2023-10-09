@@ -8,6 +8,26 @@ export default function ProgramsExperience() {
 	return (
 		<Stack className={styles.programsExperience}>
 			<ExperienceCard
+				imgSrc="/images/bucs.png"
+				experienceOrg="BUCS Community Team"
+				experienceRole="BUCS Mentor"
+				experienceLocation="Vancouver, BC"
+				experienceStartDate="Oct 2023"
+				experienceEndDate="Present"
+				experienceDescription={["Mentored junior BUCS students."]}
+			></ExperienceCard>
+			<ExperienceCard
+				imgSrc="/images/ubc-logo.png"
+				experienceOrg="UBC Computer Science"
+				experienceRole="UBC CS Tri-Mentoring Mentee"
+				experienceLocation="Vancouver, BC"
+				experienceStartDate="Sep 2021"
+				experienceEndDate="Present"
+				experienceDescription={[
+					"Participated as a mentee in the Tri-Mentoring Program.",
+				]}
+			></ExperienceCard>
+			<ExperienceCard
 				imgSrc="/images/dell-technologies.jpeg"
 				experienceOrg="Dell Technologies"
 				experienceRole="SOAR Mentee"
