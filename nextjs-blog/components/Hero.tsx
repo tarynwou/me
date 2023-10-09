@@ -63,8 +63,9 @@ export default function Hero() {
 							<p>
 								As a business and computer science (BUCS)
 								student at the University of British Columbia, I
-								am actively looking for opportunities to develop
-								my product sense and drive value back into the
+								am actively looking for opportunities to explore
+								product management, develop my technical
+								abilities, and drive value back into the
 								community.
 							</p>
 						</div>
