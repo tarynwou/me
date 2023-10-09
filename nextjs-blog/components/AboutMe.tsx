@@ -10,37 +10,92 @@ export default function AboutMe() {
 			>
 				About Me
 			</h1>
-			<Stack direction="row" className={styles.aboutSectionContent}>
+			<Stack direction="column" className={styles.aboutSectionContent}>
 				<Stack className={styles.aboutTextContainer}>
 					<p className={styles.aboutPara}>
-						Hi there! My name is Taryn, and as a lifelong learner, I
-						have always tried to put myself in situations that allow
-						me to meet new people and grow as an individual.
-						Currently, I am interested in pursuing product
-						management, software development, and UI/UX design.
+						Our lives are changing all the time, so here’s a summary
+						of mine.
 					</p>
-					<p className={styles.aboutPara}>
-						Service is a large part of my everyday being, and I hope
-						to drive value back into the communities that have
-						touched my life. At my core, I am extremely passionate
-						about making education and personal development
-						opportunities more accessible, especially to underserved
-						demographics.
-					</p>
-					<p className={styles.aboutPara}>
-						In my spare time, you may find me organizing hackathons,
-						making highlight reels of my friends, or playing the
-						ukulele. All in all, I am curious about new experiences
-						and welcome anyone who wants to chat!
-					</p>
+
+					<Stack direction="row">
+						<Stack
+							direction="column"
+							className={styles.aboutGridColumn1}
+						>
+							<p className={styles.aboutListTitle}>
+								Current Identities
+							</p>
+
+							<ul className={styles.aboutList}>
+								<li className={styles.aboutListBullets}>
+									Business and Computer Science Student @ UBC
+								</li>
+								<li className={styles.aboutListBullets}>
+									Associate Product Manager Intern @ CoPilot
+									AI
+								</li>
+								<li className={styles.aboutListBullets}>
+									Co-President & Hackathon Organizer @ nwPlus
+								</li>
+								<li className={styles.aboutListBullets}>
+									Marketing Director @ Vancouver Startup Week
+								</li>
+							</ul>
+
+							<p className={styles.aboutListTitle}>Side Quests</p>
+
+							<ul className={styles.aboutList}>
+								<li className={styles.aboutListBullets}>
+									Product Manager & Engineer @ the Council
+								</li>
+								<li className={styles.aboutListBullets}>
+									Self-empowered vlogger @ my friend groups
+								</li>
+								<li className={styles.aboutListBullets}>
+									Intermediate ukulele player @ home
+								</li>
+								<li className={styles.aboutListBullets}>
+									Badminton, ultimate, kickboxing enjoyer @
+									outside
+								</li>
+								<li className={styles.aboutListBullets}>
+									Avid volunteer @ various student
+									organizations
+								</li>
+							</ul>
+						</Stack>
+						<Stack
+							direction="column"
+							className={styles.aboutGridColumn2}
+						>
+							<p className={styles.aboutListTitle}>Dreams</p>
+
+							<ul className={styles.aboutList}>
+								<li className={styles.aboutListBullets}>
+									Intern as a product manager in the US Summer
+									2024
+								</li>
+								<li className={styles.aboutListBullets}>
+									Make education accessible to everyone
+								</li>
+								<li className={styles.aboutListBullets}>
+									Open a scholarship fund
+								</li>
+							</ul>
+
+							<img
+								className={styles.cartoon}
+								src="/images/taryn-character-nbg.png"
+								alt="Taryn Wou Cartoon"
+							/>
+						</Stack>
+					</Stack>
 				</Stack>
-				<img
-					className={styles.cartoon}
-					src="/images/taryn-character-nbg.png"
-					alt="Taryn Wou Cartoon"
-				/>
 			</Stack>
-			<a className={styles.nextSectionLink} href="#experience">
+			<a
+				className={`${styles.nextSectionLink} ${styles.nextSectionLinkAboutMe}`}
+				href="#experience"
+			>
 				<Stack className={styles.nextSection}>
 					<p className={styles.nextSectionText}>
 						my adventures so far

@@ -66,7 +66,7 @@
 	align-items: center;
 }
 
-.nextSectionText {
+.nextSectionLink {
 	margin-top: 10%;
 }
 
@@ -89,26 +89,65 @@
 		Roboto;
 }
 
+.aboutMeHeader {
+	padding-top: 5%;
+}
+
 .aboutSectionContent {
 	align-self: center;
+	width: 100%;
 }
 
 .aboutTextContainer {
-	width: 550px;
-	margin-right: 50px;
-	/* padding-top: 20px; */
+	width: 100%;
 }
 
-.cartoon {
-	width: 200px;
-	height: 313.02px;
-	-webkit-transform: scaleX(-1);
-	transform: scaleX(-1);
+.aboutGridColumn1 {
+	width: 40%;
+	margin-left: 10%;
+}
+
+.aboutGridColumn2 {
+	width: 40%;
+	margin-right: 10%;
+}
+
+.aboutList {
+	margin-bottom: 20px;
 }
 
 .aboutPara {
 	margin-bottom: 30px;
+}
+
+.aboutListTitle {
+	font-weight: 600;
+	font-size: 20px;
 	text-align: left;
+	line-height: 2em;
+	background-image: linear-gradient(to right, var(--blue), var(--pink));
+	background-clip: text;
+	color: transparent;
+	/* width: auto; */
+	max-width: max-content;
+}
+
+.aboutListBullets {
+	list-style-type: disc;
+	text-align: left;
+	margin-left: 4%;
+	line-height: 2em;
+}
+
+.cartoon {
+	width: 159.74px;
+	height: 250px;
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+
+.nextSectionLinkAboutMe {
+	margin-top: 5%;
 }
 
 .experienceSection {
