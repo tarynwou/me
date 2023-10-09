@@ -1,5 +1,86 @@
+/* HERO */
+.heroDiv {
+	margin-top: 5%;
+}
+
+.nextSection {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.nextSectionText {
+	margin-top: 10%;
+}
+
+.downArrow {
+	width: 20px;
+	margin-top: 8px;
+	/* margin-bottom: 6%; */
+}
+
+.titleSection {
+	/* width: 80%; */
+	align-self: center;
+}
+
+.headshotDiv {
+	width: 35%;
+	margin-right: 50px;
+	margin-left: 60px;
+}
+
+.titleTextDiv {
+	width: 60%;
+	text-align: left;
+}
+
+#titlehi {
+	font-family: Inter, -apple-system, system-ui, sans-serif;
+	font-size: 20px;
+	margin-top: 30px;
+}
+
+.titlefont {
+	font-family: San Francisco, SF Pro Text, -apple-system, system-ui,
+		sans-serif;
+	font-size: 50px;
+	/* font-size: calc(80px + 0.8vw); */
+	font-weight: 700;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+#titlename {
+	font-size: 96px;
+	/* color: var(--blue); */
+}
+
+.rolediv {
+	display: flex;
+}
+
+#titlerole {
+	color: var(--blue);
+}
+
+#titleroletyped {
+	/* color: var(--pink); */
+	background-image: linear-gradient(to right, var(--blue), var(--pink));
+	background-clip: text;
+	color: transparent;
+	margin-left: 12px;
+}
+
+.titleMiniBioDiv {
+	width: 80%;
+	margin-top: 20px;
+}
+
+/* ABOUT ME */
+
 .sectionHeader {
-	margin-top: 60px;
+	padding-top: 10%;
 	font-size: 64px;
 	font-family: "San Francisco", "SF Pro Text", Inter, Helvetica, -apple-system,
 		Roboto;
