@@ -79,7 +79,7 @@ export default function VolunteerExperience() {
 						experienceStartDate="Aug 2022"
 						experienceEndDate="Mar 2023"
 						experienceDescription={[
-							"Increased ticket sales by 6% through redesigning the website and ticket-purchasing process, coordinating user experience interviews, and facilitating seamless communication between internal and external stakeholders.",
+							"Supported a 33% increase in ticket sales, resulting in $46,250 of additional revenue by redesigning the website and ticket-purchasing process, coordinating user interviews, and facilitating communication between stakeholders.",
 						]}
 					></ExperienceBlurb>
 					<ExperienceBlurb
