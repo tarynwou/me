@@ -57,7 +57,10 @@ export default function Portfolio() {
 					projectTechnologies={["Affinity Designer"]}
 				/>
 			</div>
-			<a className={styles.nextSectionLink} href="#connect">
+			<a
+				className={`${styles.nextSectionLink} ${styles.nextSectionLinkPortfolio}`}
+				href="#connect"
+			>
 				<Stack className={styles.nextSection}>
 					<p className={styles.nextSectionText}>connect with me</p>
 					<img

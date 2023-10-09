@@ -15,7 +15,10 @@ export default function Experience() {
 
 	return (
 		<Stack className={styles.experienceSection}>
-			<h1 className={styles.sectionHeader} id="experience">
+			<h1
+				className={`${styles.sectionHeader} ${styles.experienceHeader}`}
+				id="experience"
+			>
 				Experience
 			</h1>
 			<div className={styles.experienceToggleWrapper}>
@@ -31,7 +34,10 @@ export default function Experience() {
 			{selectedToggle === "programs" && (
 				<ProgramsExperience></ProgramsExperience>
 			)}
-			<a className={styles.nextSectionLink} href="#portfolio">
+			<a
+				className={`${styles.nextSectionLink} ${styles.nextSectionLinkExperience}`}
+				href="#portfolio"
+			>
 				<Stack className={styles.nextSection}>
 					<p className={styles.nextSectionText}>
 						check out my projects

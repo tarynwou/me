@@ -98,7 +98,7 @@
 /* ABOUT ME */
 
 .sectionHeader {
-	padding-top: 10%;
+	padding-top: 5%;
 	font-size: 64px;
 	font-family: "San Francisco", "SF Pro Text", Inter, Helvetica, -apple-system,
 		Roboto;
@@ -165,9 +165,10 @@
 	margin-top: 5%;
 }
 
-.experienceSection {
-	/* display: "flex";
-	justify-content: "center"; */
+/* EXPERIENCE */
+
+.experienceHeader {
+	margin-top: 10%;
 }
 
 .experienceToggleWrapper {
@@ -273,6 +274,12 @@
 	padding-right: 5px;
 }
 
+.nextSectionLinkExperience {
+	margin-top: 5%;
+}
+
+/* PORTFOLIO */
+
 .projectCardContainer {
 	align-self: center;
 	max-width: 960px;
@@ -287,7 +294,7 @@
 	text-align: left;
 	background-color: white;
 	align-self: center;
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 }
 
 .projectImageContainer {
@@ -348,6 +355,12 @@
 .projectDescription {
 	font-size: 12px;
 }
+
+.nextSectionLinkPortfolio {
+	margin-top: 1%;
+}
+
+/* CONNECT */
 
 .contactSection {
 	align-self: center;
