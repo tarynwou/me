@@ -37,6 +37,11 @@ export default function Hero() {
 							src="/images/taryn-wou-headshot.png"
 							alt="Taryn Wou Headshot"
 						/>
+						<img
+							className={styles.sunglasses}
+							src="/images/sunglasses.png"
+							alt="Sunglasses"
+						/>
 					</div>
 
 					<Stack className={styles.titleTextDiv}>

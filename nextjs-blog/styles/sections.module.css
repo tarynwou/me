@@ -12,6 +12,21 @@
 	width: 35%;
 	margin-right: 50px;
 	margin-left: 60px;
+	position: relative;
+}
+
+.headshotDiv:hover .sunglasses {
+	opacity: 1;
+}
+
+.sunglasses {
+	position: absolute;
+	width: 28%;
+	top: 30%;
+	left: 30%;
+	opacity: 0;
+	transform: rotate(-5deg);
+	transition: opacity 0.3s ease;
 }
 
 .titleTextDiv {
