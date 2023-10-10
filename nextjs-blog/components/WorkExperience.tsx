@@ -36,8 +36,8 @@ export default function WorkExperience() {
 				experienceStartDate="May 2022"
 				experienceEndDate="Aug 2022"
 				experienceDescription={[
-					"Increased stakeholder interest and funding by developing an analytics dashboard using React and Amazon Web Services (AWS) to track key performance indicators",
-					"Introduced custom video branding by creating a brand kit feature with React and Redux",
+					"Enabled CEO to attract investors and secure a spot on Dragon’s Den by developing a React analytics dashboard.",
+					"Facilitated market expansion by implementing a custom video branding feature using React and Redux.",
 					"Designed and implemented UI/UX for company website with Figma and Webflow after the designer left",
 				]}
 			></ExperienceCard>
