@@ -14,7 +14,9 @@ export default function WorkExperience() {
 				experienceLocation="Vancouver, BC"
 				experienceStartDate="Jan 2024"
 				experienceEndDate="Apr 2024"
-				experienceDescription={[,]}
+				experienceDescription={[
+					"Joining the IT Solutions Delivery Team",
+				]}
 			></ExperienceCard>
 			<ExperienceCard
 				imgSrc="/images/copilotai_circle.png"
@@ -26,6 +28,7 @@ export default function WorkExperience() {
 				experienceDescription={[
 					"Exceeded the quarterly OKR by 44% by substantially elevating north star metric usage through customer interviews, solution design, and collaboration with cross-functional teams to roll out a platform redesign.",
 					"Increased Smart Reply AI feature usage by 21.3% through employing prompt engineering techniques, pressure testing, conducting training for sales and customer success teams, and developing product marketing materials.",
+					"Conducted customer research and led cross-functional teams to ship two AI features to support upsell initiatives for the company's growth goals.",
 				]}
 			></ExperienceCard>
 			<ExperienceCard
@@ -38,7 +41,7 @@ export default function WorkExperience() {
 				experienceDescription={[
 					"Enabled CEO to attract investors and secure a spot on Dragon’s Den by developing a React analytics dashboard.",
 					"Facilitated market expansion by implementing a custom video branding feature using React and Redux.",
-					"Designed and implemented UI/UX for company website with Figma and Webflow after the designer left",
+					"Designed and implemented UI/UX for company website with Figma and Webflow after the designer left.",
 				]}
 			></ExperienceCard>
 			<ExperienceCard
@@ -71,10 +74,8 @@ export default function WorkExperience() {
 						experienceStartDate="May 2021"
 						experienceEndDate="Oct 2021"
 						experienceDescription={[
-							"Discovered and researched ~$9.7 million worth of grants to add to an internal database for clients",
-							"Generated clientele insights on funding eligibility, application processes, and reimbursement activities for 130+ grants",
-							"Shortened the research time per grant by 35% through revamping internal processes",
-							"Developed 30 pages of training documentation for the Granted Research Department",
+							"Discovered and researched ~$9.7 million worth of grants to add to an internal database for clients by generating insights on funding eligibility, application processes, and reimbursement activities for 130+ grants.",
+							"Shortened the research time per grant by 35% through revamping internal processes and developed 30 pages of training documentation for the Granted Research Department.",
 							"Liaised with 75+ grant authorities, delivery organizations, and program funders",
 							"Developed 18 minutes of grant overview videos, including generating insights, storyboards and scripts",
 						]}
