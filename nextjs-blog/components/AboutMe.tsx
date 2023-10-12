@@ -82,7 +82,7 @@ export default function AboutMe() {
 									Open a scholarship fund
 								</li>
 								<li className={styles.aboutListBullets}>
-									Make time to play Pikmin 4
+									Have time to play Pikmin 4
 								</li>
 							</ul>
 
