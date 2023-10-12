@@ -81,13 +81,38 @@ export default function AboutMe() {
 								<li className={styles.aboutListBullets}>
 									Open a scholarship fund
 								</li>
+								<li className={styles.aboutListBullets}>
+									Make time to play Pikmin 4
+								</li>
 							</ul>
 
-							<img
+							<p className={styles.aboutListTitle}>Past Lives</p>
+
+							<ul className={styles.aboutList}>
+								<li className={styles.aboutListBullets}>
+									Led registered nonprofit serving 23k youth
+									for 3 years
+								</li>
+								<li className={styles.aboutListBullets}>
+									Pitched a waste reduction product to Consuls
+									General
+								</li>
+								<li className={styles.aboutListBullets}>
+									Served as the Shad York 2019 Validictorian
+								</li>
+								<li className={styles.aboutListBullets}>
+									Organized grade 5 math camps for 4 years
+								</li>
+								<li className={styles.aboutListBullets}>
+									Binged 24 marvel movies for 5 days straight
+								</li>
+							</ul>
+
+							{/* <img
 								className={styles.cartoon}
 								src="/images/taryn-character-nbg.png"
 								alt="Taryn Wou Cartoon"
-							/>
+							/> */}
 						</Stack>
 					</Stack>
 				</Stack>
