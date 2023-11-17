@@ -13,7 +13,7 @@ export default function Portfolio() {
 				<ProjectCard
 					projectName="The Council"
 					imgSrc="/images/the-council.png"
-					projectUrl="https://devpost.com/software/the-council"
+					projectUrl="https://thecouncil.vercel.app/"
 					projectDate="Sep 2023 – Present"
 					projectDescription="Selected as 1 of 12 finalist teams out of 250 projects at Hack the North 2023 by developing an AI-powered advice platform using Three.js, react-three-fiber, and the GPT-3.5-turbo API."
 					projectTechnologies={["JavaScript", "Three.js"]}

@@ -8,6 +8,17 @@ export default function WorkExperience() {
 	return (
 		<Stack className={styles.workExperience}>
 			<ExperienceCard
+				imgSrc="/images/microsoft.jpeg"
+				experienceOrg="Microsoft"
+				experienceRole="Incoming Product Manager Intern"
+				experienceLocation="Redmond, WA"
+				experienceStartDate="Summer 2024"
+				experienceEndDate=""
+				experienceDescription={[
+					"Joining the Microsoft Security Organization",
+				]}
+			></ExperienceCard>
+			<ExperienceCard
 				imgSrc="/images/deloitte.jpeg"
 				experienceOrg="Deloitte"
 				experienceRole="Incoming Analyst Intern"
