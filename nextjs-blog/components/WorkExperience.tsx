@@ -14,9 +14,7 @@ export default function WorkExperience() {
 				experienceLocation="Redmond, WA"
 				experienceStartDate="Summer 2024"
 				experienceEndDate=""
-				experienceDescription={[
-					"Joining the Microsoft Security Organization",
-				]}
+				experienceDescription={["Team TBD"]}
 			></ExperienceCard>
 			<ExperienceCard
 				imgSrc="/images/deloitte.jpeg"
