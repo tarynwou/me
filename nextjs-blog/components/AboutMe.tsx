@@ -72,8 +72,7 @@ export default function AboutMe() {
 
 							<ul className={styles.aboutList}>
 								<li className={styles.aboutListBullets}>
-									Intern as a product manager in the US Summer
-									2024
+									Become fluent in American Sign Language
 								</li>
 								<li className={styles.aboutListBullets}>
 									Make education accessible to everyone
