@@ -12,7 +12,7 @@ export default function WorkExperience() {
 				experienceOrg="Microsoft"
 				experienceRole="Incoming Product Manager Intern"
 				experienceLocation="Redmond, WA"
-				experienceStartDate="Summer 2024"
+				experienceStartDate="May 2024"
 				experienceEndDate=""
 				experienceDescription={[
 					"Unified Security Intelligence (USI) Team",
