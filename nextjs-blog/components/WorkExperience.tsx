@@ -21,12 +21,12 @@ export default function WorkExperience() {
 			<ExperienceCard
 				imgSrc="/images/deloitte.jpeg"
 				experienceOrg="Deloitte"
-				experienceRole="Incoming Analyst Intern"
+				experienceRole="Analyst Intern"
 				experienceLocation="Vancouver, BC"
 				experienceStartDate="Jan 2024"
 				experienceEndDate="Apr 2024"
 				experienceDescription={[
-					"Joining the IT Solutions Delivery Team",
+					"IT Solutions Delivery Team, Customer Experience Office",
 				]}
 			></ExperienceCard>
 			<ExperienceCard
