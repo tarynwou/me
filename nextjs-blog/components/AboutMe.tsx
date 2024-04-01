@@ -72,7 +72,7 @@ export default function AboutMe() {
 
 							<ul className={styles.aboutList}>
 								<li className={styles.aboutListBullets}>
-									Become fluent in American Sign Language
+									Become fluent in ASL & Korean
 								</li>
 								<li className={styles.aboutListBullets}>
 									Make education accessible to everyone
