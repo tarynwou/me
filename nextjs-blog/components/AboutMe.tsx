@@ -31,8 +31,8 @@ export default function AboutMe() {
 									Business and Computer Science Student @ UBC
 								</li>
 								<li className={styles.aboutListBullets}>
-									Associate Product Manager Intern @ CoPilot
-									AI
+									Analyst & Project Management Intern @
+									Deloitte
 								</li>
 								<li className={styles.aboutListBullets}>
 									Co-President & Hackathon Organizer @ nwPlus
@@ -46,7 +46,7 @@ export default function AboutMe() {
 
 							<ul className={styles.aboutList}>
 								<li className={styles.aboutListBullets}>
-									Product Manager & Engineer @ the Council
+									Hacker @ various hackathons
 								</li>
 								<li className={styles.aboutListBullets}>
 									Self-empowered vlogger @ my friend groups
@@ -55,8 +55,8 @@ export default function AboutMe() {
 									Intermediate ukulele player @ home
 								</li>
 								<li className={styles.aboutListBullets}>
-									Badminton, ultimate, kickboxing enjoyer @
-									outside
+									Badminton, pickleball, ultimate, kickboxing
+									enjoyer
 								</li>
 								<li className={styles.aboutListBullets}>
 									Avid volunteer @ various student
