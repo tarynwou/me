@@ -15,7 +15,7 @@ export default function WorkExperience() {
 				experienceStartDate="May 2024"
 				experienceEndDate=""
 				experienceDescription={[
-					"Unified Security Intelligence (USI) Team",
+					"Unified Security Intelligence (USI) Team, Security Customer Experience Engineering (CxE)",
 				]}
 			></ExperienceCard>
 			<ExperienceCard
