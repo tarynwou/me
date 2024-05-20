@@ -13,9 +13,9 @@ export default function WorkExperience() {
 				experienceRole="Incoming Product Manager Intern"
 				experienceLocation="Redmond, WA"
 				experienceStartDate="May 2024"
-				experienceEndDate=""
+				experienceEndDate="Present"
 				experienceDescription={[
-					"Unified Security Intelligence (USI) Team, Security Customer Experience Engineering (CxE)",
+					"Copilot for Security, Security Customer Experience Engineering (CxE)",
 				]}
 			></ExperienceCard>
 			<ExperienceCard
